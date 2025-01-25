@@ -1,22 +1,22 @@
-<h1 align="center"> Regalo a amigo al azar</h1>
+ <h1 align="center"> Sorteo de nombres</h1>
 
-<p>Esta pagina sirve para ingresar el nombre de varios amigos y seleccionar uno al azar.</p>
-- Para ello basta con agregar el nombre de un amigo en el cuadro y apretar el boton añadir.
+Esta es la pagina de un proyecto en JavaScript, que sirve para ingresar el nombre de varios amigos y seleccionar un "Amigo secreto" al azar.
 
-<p></p>
+## ➡️ uso
+- Se usa para agregar nombres a la lista.
+- Muestra en pantalla la lista de nombres que ingresaste.
+- Escoge un nombre de los ingresados al azar.
 
-![Juego](https://github.com/user-attachments/assets/98b49f69-676a-417f-9867-a70b9fc83a65)
+## 🤖 Como instalar y usar:
+1. Clona los archivos:
+ ```bash
+   git clone https://github.com/GianibelliMartin/Challen-AmigoSecreto.git
+   ```
+2. Abre el archivo HTML.
+3. Ingresa un nombre en el campo y luego presiona el boton "añadir".
+4. Repite el paso 3 las veces q desees.
+5. Toca el boton "Sortear nombres" para seleccionar un ganador al azar.
 
-<p></p>
+## 🖼️ Como se ve la pagina:
 
-- Luego de añadir cada nombre, este sera mostrado como esta en la imagen
-
-<p></p>
-
-![image](https://github.com/user-attachments/assets/81d0f204-d7ac-4066-9944-4252d551364a)
-
-<p></p>
-
-- Luego de ingresar el nombre de todas las personas deseadas, pulsa el boton llamado "Sortear nombres" y se seleccionara un nombre al azar como se muestra en la imagen siguiente
-
-![image](https://github.com/user-attachments/assets/5db18207-7d92-4017-b889-9eb41d08aca6)
+![image](https://github.com/user-attachments/assets/16617d73-ae69-4b3b-ae7e-a1dfcb00efb4)
