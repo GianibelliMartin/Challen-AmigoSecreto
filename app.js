@@ -2,6 +2,7 @@
 let amigosSeleccionados = [];
 let lista = document.querySelector('#listaAmigos');
 let seleccionado = document.querySelector('#resultado');
+let mensaje = document.querySelector('#resultado');
 
 //limpia el cuadro de texto
 function limpiarCuadro() {
@@ -33,7 +34,7 @@ function agregarAmigo() {
         amigosSeleccionados.push(amigo);
         limpiarCuadro();
         actualizarLista();
-
+        mensaje.innerHTML = ''
         //muestra en pantalla la lista de amigos q va seleccionando
         for (let i = 0; i < amigosSeleccionados.length; i++) {
             let li = crearElemento('li', amigosSeleccionados[i]);
@@ -50,7 +51,6 @@ function sortearAmigo(){
         actualizarLista();
         //elige una persona aleatoria y la muestra en pantalla
         let personaSeleccionada = Math.floor(Math.random()*amigosSeleccionados.length);
-        let mensaje = document.querySelector('#resultado');
         mensaje.innerHTML = `La persona seleccionada es ${amigosSeleccionados[personaSeleccionada]}.`;
         //limpia la lista para q el usuario tenga q ingresar nuevos nombres
         amigosSeleccionados = [];
